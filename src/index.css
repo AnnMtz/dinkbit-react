@@ -1,13 +1,250 @@
+/*header*/
+.container-fluid {
+  padding: 0;
+} 
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#logo{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
 }
+
+#bg{
+  position: relative;
+  top: -55px;
+  width: 100%;
+}
+
+#title{
+  display: flex;
+  justify-content: center;
+  margin: 10rem 0 5rem 0;
+}
+
+.slogan-text {
+  position: absolute;
+}
+
+h1 {
+  position: absolute;
+  font-weight: bold;
+  padding-top: 21px;
+  text-align: center;
+}
+
+#arrow {
+  position: relative;
+  top: 165px;
+  width: 23px;
+  height: 17px;
+  transform: rotate(90deg);
+}
+
+#arrow-text{
+  position: relative;
+  top: 163px;
+  font-size: 7px;
+  transform: rotate(90deg);
+}
+
+/*cards*/
+#cards {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  width: 78%;
+  justify-content: flex-end;
+  margin-left: auto;
+  position: relative;
+  top: 171px;
+}
+
+#disign-img{
+  position: absolute;
+  left: -150px;
+  top: -77px;
+  width: 30%;
+}
+
+.card-header{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 14rem;
+  margin-right: auto;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.card-title {
+  width: 50%;
+  display: flex;
+  margin-left: 14rem;
+  margin-right: auto;
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-weight: 900;
+}
+
+.card-text {
+  display: inline-block;
+  text-align: justify;
+  width: 50%;
+  margin-right: 16%;
+}
+
+#services {
+  display: inline-block;
+  position: relative;
+  top: 60px;
+  left: 668px;
+}
+
+p{
+  margin-right: 68px;
+  font-size: 10px;
+}
+
+#develop {
+  margin-right: 87px;
+  font-size: 10px;
+  color: darkgray;
+}
+
+#marketing {
+  margin-right: 84px;
+  font-size: 10px;
+  color: darkgray;
+}
+
+#line {
+  border: 1px solid #fffffffc;
+  width: 74px;
+  margin-bottom: 32px;
+  margin-left: 18px;
+  transform: rotate(90deg);
+}
+
+#lines{
+  border: 1px solid darkgray;
+  width: 74px;
+  margin-left: 18px;
+  transform: rotate(90deg);
+}
+
+.btn {
+  border: 1px solid;
+  width: 46%;
+  height: 23%;
+  font-size: 20px;
+  border-radius: unset;
+  margin-right: 53px;
+  margin-bottom: 3em;
+}
+
+#btn-image {
+  width: 28px;
+  filter: invert(1);
+  margin-left: 8px;
+}
+
+
+/*Navbar*/
+#navbarNavDropdown {
+  margin-left: 40rem;
+}
+
+/*projects.js*/
+.card{
+  border: none;
+}
+.card-body {
+  height: 17rem;
+}
+#cards-img{
+  margin-top: 10rem;
+  padding: 6rem;
+}
+.card-title {
+  text-transform: uppercase;
+  color: darkgray;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 0;
+}
+
+#projects-card-text1{
+  font-size: 55px;
+  margin-right: 0px;
+  font-weight: bolder;
+}
+
+#projects-card-text{
+  margin-right: 0px;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.card-title1 {
+  color: darkgray;
+  font-size: 16px;
+}
+
+#card-body1{
+  height: 12rem;
+}
+
+#card-body2{
+  height: 8rem;
+}
+
+.card-body4{
+  margin-top: 6rem;
+}
+
+.card-body6{
+  height: 11rem;
+}
+
+.card-footer{
+  background: none;
+  border: none;
+}
+#card-button{
+  width: 70%;
+  height: 3rem;
+  background: blue;
+  border: none;
+}
+
+#text-button{
+  color: white;
+}
+
+#arrow2{
+  width: 13px;
+  margin-left: 8px;
+  filter: invert(1);
+}
+/* .card-text-1{
+  font-size: 64px;
+  font-weight: bold;
+} */
+
+/* .card-img{
+  width: 100%;
+}
+
+.text-cards{
+  margin-top: 10px;
+  color: darkgray;
+}
+
+#bull-text {
+  color: black;
+} */
